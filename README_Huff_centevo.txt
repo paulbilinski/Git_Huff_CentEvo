@@ -1,6 +1,6 @@
 Centromere Repeat Evolution in the Grasses
 
-October 2013
+October 2013-February 2014
 by: Paul Bilinski
 
 Below is a running log/journal of the final analyses performed for the Hufford et al

@@ -1,17 +1,21 @@
 # BLASTN 2.2.27+
 # Query: testassemblies0
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies0	knob11	93.33	15	1	0	3	17	373	387	0.036	22.9
 # BLASTN 2.2.27+
 # Query: testassemblies1
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies1	knob11	93.33	15	1	0	3	17	373	387	0.036	22.9
+testassemblies1	knob10	100.00	15	0	0	81	95	338	352	0.003	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies2
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies2	knob10	100.00	15	0	0	81	95	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies3
 # Database: 34KnobsonNCBI_renamed.txt
@@ -47,19 +51,21 @@ testassemblies1	knob11	93.33	15	1	0	3	17	373	387	0.036	22.9
 # BLASTN 2.2.27+
 # Query: testassemblies11
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies11	knob10	100.00	15	0	0	39	53	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies12
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies12	knob10	100.00	15	0	0	100	114	338	352	0.007	28.3
+testassemblies12	knob10	100.00	14	0	0	123	136	352	339	0.012	26.5
 # BLASTN 2.2.27+
 # Query: testassemblies13
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies13	knob10	100.00	15	0	0	97	111	338	352	0.015	28.3
+testassemblies13	knob10	100.00	13	0	0	81	93	350	338	0.091	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies14
 # Database: 34KnobsonNCBI_renamed.txt
@@ -71,15 +77,11 @@ testassemblies13	knob10	100.00	15	0	0	97	111	338	352	0.015	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies16
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies16	knob10	93.75	16	1	0	195	210	335	350	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies17
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies17	knob10	100.00	13	0	0	109	121	338	350	0.042	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies18
 # Database: 34KnobsonNCBI_renamed.txt
@@ -97,7 +99,7 @@ testassemblies17	knob10	100.00	13	0	0	109	121	338	350	0.042	24.7
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies21	knob10	100.00	13	0	0	106	118	338	350	0.041	24.7
+testassemblies21	knob10	100.00	15	0	0	209	223	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies22
 # Database: 34KnobsonNCBI_renamed.txt
@@ -107,30 +109,27 @@ testassemblies21	knob10	100.00	13	0	0	106	118	338	350	0.041	24.7
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies23	knob10	100.00	13	0	0	139	151	338	350	0.089	24.7
+testassemblies23	knob10	100.00	13	0	0	41	53	350	338	0.042	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies24
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies24	knob10	100.00	13	0	0	144	156	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies25
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies25	knob11	100.00	13	0	0	250	262	615	627	0.090	24.7
+testassemblies25	knob10	100.00	15	0	0	686	700	352	338	0.022	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies26
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 2 hits found
-testassemblies26	knob10	100.00	15	0	0	22	36	338	352	0.003	28.3
-testassemblies26	knob15	85.71	21	3	0	74	94	51	31	0.042	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies27
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies27	knob15	100.00	13	0	0	82	94	43	31	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies28
 # Database: 34KnobsonNCBI_renamed.txt
@@ -138,31 +137,31 @@ testassemblies27	knob15	100.00	13	0	0	82	94	43	31	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies29
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies29	knob10	100.00	13	0	0	177	189	338	350	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies30
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies30	knob10	100.00	15	0	0	25	39	352	338	0.007	28.3
+testassemblies30	knob10	100.00	13	0	0	121	133	338	350	0.042	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies31
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies31	knob10	100.00	15	0	0	25	39	352	338	0.007	28.3
+testassemblies31	knob10	100.00	15	0	0	92	106	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies32
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies32	knob10	100.00	13	0	0	39	51	352	340	0.042	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies33
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies33	knob10	100.00	13	0	0	39	51	352	340	0.088	24.7
+testassemblies33	knob10	100.00	13	0	0	202	214	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies34
 # Database: 34KnobsonNCBI_renamed.txt
@@ -172,13 +171,13 @@ testassemblies33	knob10	100.00	13	0	0	39	51	352	340	0.088	24.7
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies35	knob10	100.00	13	0	0	3	15	338	350	0.089	24.7
+testassemblies35	knob10	100.00	13	0	0	60	72	350	338	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies36
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies36	knob10	100.00	13	0	0	124	136	338	350	0.088	24.7
+testassemblies36	knob17	77.14	35	5	1	83	117	165	134	0.012	26.5
 # BLASTN 2.2.27+
 # Query: testassemblies37
 # Database: 34KnobsonNCBI_renamed.txt
@@ -186,7 +185,9 @@ testassemblies36	knob10	100.00	13	0	0	124	136	338	350	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies38
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies38	knob10	100.00	13	0	0	167	179	338	350	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies39
 # Database: 34KnobsonNCBI_renamed.txt
@@ -194,7 +195,9 @@ testassemblies36	knob10	100.00	13	0	0	124	136	338	350	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies40
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies40	knob10	100.00	15	0	0	423	437	338	352	0.023	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies41
 # Database: 34KnobsonNCBI_renamed.txt
@@ -210,19 +213,17 @@ testassemblies36	knob10	100.00	13	0	0	124	136	338	350	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies44
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies44	knob10	100.00	13	0	0	232	244	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies45
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies45	knob10	100.00	15	0	0	40	54	352	338	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies46
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies46	knob10	86.96	23	2	1	226	247	360	338	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies47
 # Database: 34KnobsonNCBI_renamed.txt
@@ -234,9 +235,7 @@ testassemblies46	knob10	86.96	23	2	1	226	247	360	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies49
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies49	knob10	100.00	13	0	0	101	113	338	350	0.088	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies50
 # Database: 34KnobsonNCBI_renamed.txt
@@ -244,9 +243,7 @@ testassemblies49	knob10	100.00	13	0	0	101	113	338	350	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies51
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies51	knob10	100.00	13	0	0	81	93	350	338	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies52
 # Database: 34KnobsonNCBI_renamed.txt
@@ -254,29 +251,29 @@ testassemblies51	knob10	100.00	13	0	0	81	93	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies53
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies53	knob10	100.00	15	0	0	60	74	350	336	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies54
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies54	knob10	100.00	15	0	0	144	158	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies55
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies55	knob10	100.00	13	0	0	83	95	350	338	0.041	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies56
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies56	knob10	100.00	15	0	0	148	162	338	352	0.007	28.3
+testassemblies56	knob10	100.00	15	0	0	150	164	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies57
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies57	knob10	100.00	15	0	0	147	161	338	352	0.023	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies58
 # Database: 34KnobsonNCBI_renamed.txt
@@ -286,7 +283,7 @@ testassemblies56	knob10	100.00	15	0	0	148	162	338	352	0.007	28.3
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies59	knob10	100.00	13	0	0	211	223	350	338	0.089	24.7
+testassemblies59	knob10	100.00	15	0	0	45	59	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies60
 # Database: 34KnobsonNCBI_renamed.txt
@@ -294,35 +291,32 @@ testassemblies59	knob10	100.00	13	0	0	211	223	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies61
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies61	knob10	100.00	15	0	0	109	123	338	352	0.003	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies62
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+testassemblies62	knob10	94.44	18	1	0	156	173	335	352	0.007	28.3
+testassemblies62	knob15	100.00	13	0	0	220	232	43	31	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies63
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies63	knob10	100.00	13	0	0	9	21	350	338	0.041	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies64
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies64	knob10	100.00	13	0	0	50	62	350	338	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies65
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies65	knob10	100.00	15	0	0	194	208	352	338	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies66
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies66	knob10	100.00	13	0	0	219	231	338	350	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies67
 # Database: 34KnobsonNCBI_renamed.txt
@@ -330,41 +324,37 @@ testassemblies66	knob10	100.00	13	0	0	219	231	338	350	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies68
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies68	knob10	100.00	15	0	0	187	201	350	336	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies69
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies69	knob10	100.00	13	0	0	60	72	350	338	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies70
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies70	knob10	100.00	15	0	0	120	134	352	338	0.003	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies71
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies71	knob10	100.00	15	0	0	105	119	352	338	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies72
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies72	knob10	100.00	13	0	0	7	19	350	338	0.042	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies73
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies73	knob10	100.00	15	0	0	143	157	338	352	0.004	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies74
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies74	knob10	100.00	15	0	0	122	136	338	352	0.003	28.3
+testassemblies74	knob10	100.00	13	0	0	185	197	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies75
 # Database: 34KnobsonNCBI_renamed.txt
@@ -392,19 +382,19 @@ testassemblies74	knob10	100.00	15	0	0	122	136	338	352	0.003	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies81
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies81	knob10	100.00	13	0	0	15	27	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies82
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies82	knob10	100.00	15	0	0	39	53	352	338	0.003	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies83
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies83	knob10	100.00	15	0	0	23	37	352	338	0.007	28.3
+testassemblies83	knob10	100.00	13	0	0	39	51	350	338	0.042	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies84
 # Database: 34KnobsonNCBI_renamed.txt
@@ -414,13 +404,11 @@ testassemblies83	knob10	100.00	15	0	0	23	37	352	338	0.007	28.3
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies85	knob10	100.00	15	0	0	11	25	338	352	0.003	28.3
+testassemblies85	knob10	100.00	15	0	0	221	235	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies86
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies86	knob10	100.00	15	0	0	12	26	338	352	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies87
 # Database: 34KnobsonNCBI_renamed.txt
@@ -428,15 +416,13 @@ testassemblies86	knob10	100.00	15	0	0	12	26	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies88
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies88	knob10	100.00	13	0	0	178	190	350	338	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies89
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies89	knob10	100.00	15	0	0	16	30	352	338	0.003	28.3
+testassemblies89	knob10	100.00	13	0	0	57	69	338	350	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies90
 # Database: 34KnobsonNCBI_renamed.txt
@@ -444,7 +430,9 @@ testassemblies89	knob10	100.00	15	0	0	16	30	352	338	0.003	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies91
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies91	knob10	100.00	13	0	0	27	39	338	350	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies92
 # Database: 34KnobsonNCBI_renamed.txt
@@ -464,21 +452,15 @@ testassemblies89	knob10	100.00	15	0	0	16	30	352	338	0.003	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies96
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies96	knob10	100.00	15	0	0	149	163	352	338	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies97
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies97	knob10	100.00	15	0	0	36	50	352	338	0.003	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies98
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies98	knob10	100.00	13	0	0	33	45	338	350	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies99
 # Database: 34KnobsonNCBI_renamed.txt
@@ -486,25 +468,25 @@ testassemblies98	knob10	100.00	13	0	0	33	45	338	350	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies100
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies100	knob10	100.00	13	0	0	201	213	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies101
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies101	knob10	100.00	15	0	0	202	216	338	352	0.007	28.3
+testassemblies101	knob10	100.00	13	0	0	21	33	350	338	0.042	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies102
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies102	knob10	100.00	15	0	0	71	85	352	338	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies103
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies103	knob10	100.00	15	0	0	14	28	352	338	0.003	28.3
+testassemblies103	knob10	100.00	13	0	0	194	206	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies104
 # Database: 34KnobsonNCBI_renamed.txt
@@ -514,37 +496,39 @@ testassemblies103	knob10	100.00	15	0	0	14	28	352	338	0.003	28.3
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies105	knob10	100.00	15	0	0	156	170	338	352	0.007	28.3
+testassemblies105	knob10	100.00	15	0	0	186	200	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies106
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies106	knob10	100.00	13	0	0	202	214	350	338	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies107
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies107	knob10	94.44	18	1	0	145	162	335	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies108
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies108	knob10	94.44	18	1	0	115	132	335	352	0.015	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies109
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies109	knob10	100.00	15	0	0	145	159	338	352	0.007	28.3
+testassemblies109	knob10	100.00	13	0	0	64	76	338	350	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies110
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies110	knob10	100.00	13	0	0	252	264	350	338	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies111
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies111	knob10	100.00	13	0	0	51	63	338	350	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies112
 # Database: 34KnobsonNCBI_renamed.txt
@@ -552,53 +536,47 @@ testassemblies110	knob10	100.00	13	0	0	252	264	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies113
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies113	knob10	100.00	15	0	0	55	69	352	338	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies114
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies114	knob15	100.00	13	0	0	221	233	31	43	0.077	24.7
+testassemblies114	knob10	100.00	15	0	0	119	133	350	336	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies115
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies115	knob10	100.00	15	0	0	135	149	338	352	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies116
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies116	knob10	100.00	15	0	0	188	202	352	338	0.006	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies117
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies117	knob10	100.00	13	0	0	194	206	350	338	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies118
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies118	knob10	100.00	15	0	0	241	255	338	352	0.007	28.3
+testassemblies118	knob10	100.00	13	0	0	210	222	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies119
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies119	knob10	100.00	15	0	0	132	146	350	336	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies120
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies120	knob10	100.00	15	0	0	212	226	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies121
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies121	knob10	100.00	13	0	0	63	75	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies122
 # Database: 34KnobsonNCBI_renamed.txt
@@ -610,25 +588,33 @@ testassemblies119	knob10	100.00	15	0	0	132	146	350	336	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies124
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies124	knob10	100.00	15	0	0	113	127	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies125
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies125	knob10	100.00	15	0	0	7	21	352	338	0.003	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies126
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies126	knob10	100.00	13	0	0	64	76	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies127
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies127	knob10	100.00	13	0	0	195	207	350	338	0.089	24.7
+testassemblies127	knob10	100.00	13	0	0	41	53	350	338	0.042	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies128
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies128	knob10	100.00	15	0	0	299	313	350	336	0.015	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies129
 # Database: 34KnobsonNCBI_renamed.txt
@@ -636,39 +622,43 @@ testassemblies127	knob10	100.00	13	0	0	195	207	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies130
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies130	knob10	100.00	15	0	0	79	93	352	338	0.006	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies131
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies131	knob10	100.00	15	0	0	97	111	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies132
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies132	knob10	100.00	13	0	0	167	179	338	350	0.088	24.7
+testassemblies132	knob10	100.00	13	0	0	252	264	338	350	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies133
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies133	knob10	100.00	15	0	0	16	30	352	338	0.003	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies134
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies134	knob10	100.00	15	0	0	90	104	338	352	0.007	28.3
+testassemblies134	knob10	100.00	13	0	0	70	82	350	338	0.042	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies135
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies135	knob10	100.00	13	0	0	115	127	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies136
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies136	knob10	100.00	13	0	0	89	101	350	338	0.096	24.7
+testassemblies136	knob10	100.00	13	0	0	149	161	338	350	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies137
 # Database: 34KnobsonNCBI_renamed.txt
@@ -676,19 +666,17 @@ testassemblies136	knob10	100.00	13	0	0	89	101	350	338	0.096	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies138
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies138	knob10	100.00	15	0	0	11	25	338	352	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies139
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies139	knob10	100.00	13	0	0	65	77	338	350	0.088	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies140
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies140	knob10	100.00	13	0	0	176	188	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies141
 # Database: 34KnobsonNCBI_renamed.txt
@@ -696,7 +684,9 @@ testassemblies139	knob10	100.00	13	0	0	65	77	338	350	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies142
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies142	knob10	100.00	15	0	0	72	86	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies143
 # Database: 34KnobsonNCBI_renamed.txt
@@ -706,11 +696,15 @@ testassemblies139	knob10	100.00	13	0	0	65	77	338	350	0.088	24.7
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies144	knob10	100.00	13	0	0	193	205	350	338	0.088	24.7
+testassemblies144	knob10	100.00	15	0	0	255	269	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies145
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+testassemblies145	knob10	100.00	15	0	0	255	269	338	352	0.015	28.3
+testassemblies145	knob10	100.00	15	0	0	529	543	338	352	0.015	28.3
+testassemblies145	knob2	84.62	26	2	1	211	236	170	147	0.052	26.5
 # BLASTN 2.2.27+
 # Query: testassemblies146
 # Database: 34KnobsonNCBI_renamed.txt
@@ -726,61 +720,66 @@ testassemblies144	knob10	100.00	13	0	0	193	205	350	338	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies149
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies149	knob10	100.00	13	0	0	207	219	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies150
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies150	knob10	94.44	18	1	0	224	241	335	352	0.007	28.3
+testassemblies150	knob10	94.44	18	1	0	62	79	335	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies151
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 3 hits found
-testassemblies151	knob10	94.44	18	1	0	498	515	335	352	0.015	28.3
-testassemblies151	knob14	86.36	22	3	0	45	66	216	237	0.052	26.5
-testassemblies151	knob2	86.36	22	3	0	45	66	547	568	0.052	26.5
+# 1 hits found
+testassemblies151	knob10	100.00	15	0	0	37	51	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies152
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies152	knob10	100.00	13	0	0	102	114	350	338	0.088	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies153
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies153	knob10	100.00	15	0	0	144	158	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies154
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies154	knob10	100.00	15	0	0	116	130	338	352	0.007	28.3
+# 2 hits found
+testassemblies154	knob10	94.44	18	1	0	140	157	335	352	0.015	28.3
+testassemblies154	knob10	100.00	15	0	0	417	431	338	352	0.015	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies155
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies155	knob10	100.00	13	0	0	108	120	338	350	0.042	24.7
+testassemblies155	knob10	100.00	13	0	0	107	119	350	338	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies156
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies156	knob10	100.00	13	0	0	175	187	350	338	0.088	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies157
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies157	knob10	100.00	13	0	0	2	14	350	338	0.042	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies158
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies158	knob10	100.00	13	0	0	3	15	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies159
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies159	knob15	100.00	13	0	0	227	239	43	31	0.077	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies160
 # Database: 34KnobsonNCBI_renamed.txt
@@ -790,7 +789,7 @@ testassemblies156	knob10	100.00	13	0	0	175	187	350	338	0.088	24.7
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies161	knob10	94.44	18	1	0	241	258	352	335	0.007	28.3
+testassemblies161	knob10	100.00	15	0	0	242	256	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies162
 # Database: 34KnobsonNCBI_renamed.txt
@@ -800,45 +799,43 @@ testassemblies161	knob10	94.44	18	1	0	241	258	352	335	0.007	28.3
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies163	knob10	100.00	15	0	0	153	167	338	352	0.007	28.3
+testassemblies163	knob10	100.00	15	0	0	250	264	352	338	0.015	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies164
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies164	knob10	100.00	15	0	0	39	53	352	338	0.003	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies165
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies165	knob10	100.00	15	0	0	232	246	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies166
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies166	knob10	100.00	13	0	0	106	118	338	350	0.041	24.7
+testassemblies166	knob10	100.00	15	0	0	140	154	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies167
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies167	knob10	100.00	15	0	0	134	148	338	352	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies168
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies168	knob10	100.00	13	0	0	123	135	350	338	0.042	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies169
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies169	knob10	100.00	13	0	0	249	261	350	338	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies170
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies170	knob10	100.00	15	0	0	51	65	352	338	0.007	28.3
+testassemblies170	knob10	100.00	13	0	0	114	126	338	350	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies171
 # Database: 34KnobsonNCBI_renamed.txt
@@ -846,65 +843,65 @@ testassemblies170	knob10	100.00	15	0	0	51	65	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies172
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies172	knob10	100.00	15	0	0	55	69	338	352	0.007	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies173
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies173	knob10	100.00	13	0	0	99	111	350	338	0.089	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies174
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies174	knob10	100.00	13	0	0	109	121	350	338	0.088	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies175
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies175	knob10	100.00	15	0	0	89	103	352	338	0.003	28.3
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies176
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies176	knob10	100.00	13	0	0	215	227	350	338	0.089	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies177
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies177	knob10	100.00	13	0	0	4	16	338	350	0.042	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies178
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies178	knob10	100.00	14	0	0	124	137	352	339	0.012	26.5
 # BLASTN 2.2.27+
 # Query: testassemblies179
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies179	knob10	100.00	15	0	0	120	134	338	352	0.003	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies180
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies180	knob10	100.00	15	0	0	132	146	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies181
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies181	knob10	86.96	23	3	0	55	77	360	338	0.004	28.3
+testassemblies181	knob10	100.00	13	0	0	199	211	350	338	0.088	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies182
 # Database: 34KnobsonNCBI_renamed.txt
-# 0 hits found
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies182	knob10	100.00	15	0	0	187	201	338	352	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies183
 # Database: 34KnobsonNCBI_renamed.txt
 # Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
 # 1 hits found
-testassemblies183	knob10	100.00	13	0	0	26	38	338	350	0.042	24.7
+testassemblies183	knob10	100.00	15	0	0	63	77	352	338	0.007	28.3
 # BLASTN 2.2.27+
 # Query: testassemblies184
 # Database: 34KnobsonNCBI_renamed.txt
@@ -912,9 +909,7 @@ testassemblies183	knob10	100.00	13	0	0	26	38	338	350	0.042	24.7
 # BLASTN 2.2.27+
 # Query: testassemblies185
 # Database: 34KnobsonNCBI_renamed.txt
-# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
-testassemblies185	knob10	100.00	13	0	0	46	58	338	350	0.042	24.7
+# 0 hits found
 # BLASTN 2.2.27+
 # Query: testassemblies186
 # Database: 34KnobsonNCBI_renamed.txt
@@ -923,4 +918,1527 @@ testassemblies185	knob10	100.00	13	0	0	46	58	338	350	0.042	24.7
 # Query: testassemblies187
 # Database: 34KnobsonNCBI_renamed.txt
 # 0 hits found
-# BLAST processed 188 queries
+# BLASTN 2.2.27+
+# Query: testassemblies188
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies188	knob10	100.00	13	0	0	1	13	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies189
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies189	knob10	100.00	15	0	0	105	119	352	338	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies190
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies190	knob10	100.00	15	0	0	106	120	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies191
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies191	knob10	100.00	15	0	0	37	51	352	338	0.004	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies192
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies192	knob10	100.00	13	0	0	117	129	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies193
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies194
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies194	knob10	93.75	16	1	0	133	148	335	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies195
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies196
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies197
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies198
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies198	knob10	100.00	15	0	0	88	102	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies199
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies200
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies200	knob10	100.00	15	0	0	172	186	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies201
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies201	knob10	100.00	15	0	0	47	61	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies202
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies202	knob10	100.00	15	0	0	96	110	352	338	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies203
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies204
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies205
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies205	knob10	100.00	15	0	0	244	258	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies206
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies206	knob10	100.00	15	0	0	109	123	338	352	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies207
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies208
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies209
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies210
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies211
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies211	knob10	100.00	13	0	0	118	130	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies212
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies212	knob10	100.00	15	0	0	233	247	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies213
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies214
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies214	knob10	100.00	15	0	0	184	198	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies215
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies215	knob10	100.00	15	0	0	458	472	352	338	0.015	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies216
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies216	knob10	100.00	15	0	0	111	125	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies217
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies218
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies218	knob10	100.00	13	0	0	197	209	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies219
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies220
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies220	knob10	100.00	13	0	0	186	198	338	350	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies221
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies221	knob10	94.44	18	1	0	192	209	335	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies222
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+testassemblies222	knob10	94.44	18	1	0	465	482	335	352	0.015	28.3
+testassemblies222	knob14	94.12	17	1	0	287	303	216	232	0.052	26.5
+testassemblies222	knob2	94.12	17	1	0	287	303	547	563	0.052	26.5
+# BLASTN 2.2.27+
+# Query: testassemblies223
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies223	knob10	100.00	13	0	0	102	114	338	350	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies224
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies225
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies225	knob10	94.44	18	1	0	116	133	335	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies226
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies227
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies228
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies228	knob10	100.00	15	0	0	60	74	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies229
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies229	knob10	100.00	13	0	0	5	17	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies230
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies231
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies232
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies233
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies234
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies235
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies236
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies236	knob10	100.00	13	0	0	55	67	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies237
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies238
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies238	knob10	100.00	13	0	0	189	201	350	338	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies239
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies239	knob10	100.00	13	0	0	101	113	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies240
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies241
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies242
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies242	knob10	100.00	13	0	0	143	155	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies243
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies243	knob10	100.00	15	0	0	17	31	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies244
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies245
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies245	knob10	100.00	13	0	0	212	224	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies246
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies247
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies248
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies248	knob10	100.00	13	0	0	15	27	338	350	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies249
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies250
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies250	knob10	100.00	13	0	0	9	21	350	338	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies251
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies251	knob10	100.00	13	0	0	229	241	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies252
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies253
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies253	knob10	100.00	15	0	0	188	202	352	338	0.006	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies254
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies254	knob10	100.00	15	0	0	82	96	352	338	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies255
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies255	knob10	100.00	15	0	0	187	201	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies256
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies257
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies257	knob10	100.00	13	0	0	114	126	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies258
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies258	knob10	100.00	13	0	0	9	21	350	338	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies259
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies259	knob10	100.00	13	0	0	112	124	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies260
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies261
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+testassemblies261	knob15	100.00	13	0	0	187	199	31	43	0.089	24.7
+testassemblies261	knob10	100.00	13	0	0	248	260	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies262
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies262	knob10	100.00	15	0	0	134	148	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies263
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies263	knob10	100.00	15	0	0	104	118	352	338	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies264
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies264	knob10	100.00	15	0	0	111	125	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies265
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies265	knob10	100.00	15	0	0	39	53	352	338	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies266
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies267
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies268
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies268	knob10	100.00	13	0	0	112	124	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies269
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies270
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies270	knob10	100.00	15	0	0	61	75	352	338	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies271
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies271	knob10	100.00	13	0	0	204	216	350	338	0.090	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies272
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies272	knob10	100.00	15	0	0	112	126	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies273
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies273	knob10	100.00	15	0	0	36	50	352	338	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies274
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies274	knob10	100.00	15	0	0	90	104	352	338	0.015	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies275
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies276
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies276	knob2	84.62	26	4	0	86	111	422	447	0.001	30.1
+# BLASTN 2.2.27+
+# Query: testassemblies277
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies277	knob10	100.00	13	0	0	8	20	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies278
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies278	knob10	100.00	13	0	0	7	19	350	338	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies279
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies280
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+testassemblies280	knob10	100.00	15	0	0	205	219	352	338	0.007	28.3
+testassemblies280	knob11	100.00	13	0	0	146	158	627	615	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies281
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies281	knob11	100.00	13	0	0	74	86	627	615	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies282
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies282	knob10	100.00	13	0	0	94	106	338	350	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies283
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies283	knob10	100.00	13	0	0	95	107	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies284
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies284	knob10	100.00	15	0	0	205	219	350	336	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies285
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies286
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies286	knob10	100.00	13	0	0	1	13	340	352	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies287
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies287	knob10	100.00	13	0	0	109	121	338	350	0.041	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies288
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies289
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies289	knob10	100.00	13	0	0	4	16	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies290
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies291
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies292
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies293
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies293	knob10	100.00	13	0	0	146	158	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies294
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies295
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies296
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies297
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies298
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies299
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies300
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies300	knob10	100.00	15	0	0	177	191	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies301
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies302
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies303
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies304
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies304	knob10	100.00	13	0	0	118	130	350	338	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies305
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies306
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies307
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies308
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies308	knob10	100.00	15	0	0	241	255	350	336	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies309
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies310
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies310	knob10	100.00	13	0	0	248	260	350	338	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies311
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies311	knob10	100.00	14	0	0	243	256	349	336	0.026	26.5
+# BLASTN 2.2.27+
+# Query: testassemblies312
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies312	knob10	100.00	13	0	0	39	51	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies313
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies314
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies314	knob10	100.00	13	0	0	107	119	338	350	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies315
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies315	knob10	100.00	13	0	0	250	262	338	350	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies316
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies316	knob10	100.00	13	0	0	99	111	338	350	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies317
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies318
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies318	knob10	100.00	15	0	0	140	154	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies319
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies319	knob10	100.00	13	0	0	82	94	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies320
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies321
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies322
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies322	knob10	100.00	15	0	0	159	173	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies323
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies323	knob10	100.00	15	0	0	12	26	338	352	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies324
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies325
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies326
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies327
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies328
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies328	knob10	100.00	13	0	0	119	131	350	338	0.097	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies329
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies329	knob10	88.89	18	2	0	189	206	335	352	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies330
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies331
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies331	knob10	100.00	13	0	0	232	244	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies332
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies333
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies334
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies335
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies336
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies336	knob10	100.00	13	0	0	143	155	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies337
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies338
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies339
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies340
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies341
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies342
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies343
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies344
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies345
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies345	knob10	100.00	13	0	0	106	118	338	350	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies346
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies346	knob10	100.00	13	0	0	124	136	338	350	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies347
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies348
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies349
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies350
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies351
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies352
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies353
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies353	knob10	100.00	15	0	0	252	266	350	336	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies354
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies354	knob10	100.00	13	0	0	50	62	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies355
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies355	knob10	100.00	13	0	0	1	13	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies356
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies357
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies358
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies358	knob10	100.00	13	0	0	193	205	350	338	0.086	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies359
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies359	knob10	100.00	13	0	0	202	214	350	338	0.090	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies360
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies361
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies362
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies363
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies364
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies365
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies366
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies367
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies368
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies368	knob10	100.00	13	0	0	60	72	350	338	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies369
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies369	knob10	100.00	15	0	0	150	164	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies370
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies371
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies372
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies373
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies374
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies375
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies375	knob10	100.00	15	0	0	159	173	350	336	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies376
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies377
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies377	knob10	100.00	15	0	0	228	242	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies378
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies379
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies380
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies381
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies382
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies382	knob10	100.00	15	0	0	39	53	352	338	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies383
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+testassemblies383	knob10	100.00	15	0	0	101	115	352	338	0.007	28.3
+testassemblies383	knob11	100.00	13	0	0	42	54	627	615	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies384
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies385
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies385	knob10	100.00	15	0	0	3	17	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies386
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies387
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies388
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies389
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies390
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies390	knob10	100.00	15	0	0	245	259	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies391
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies392
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies393
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies393	knob10	100.00	15	0	0	4	18	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies394
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies394	knob10	100.00	15	0	0	94	108	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies395
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies395	knob10	100.00	15	0	0	95	109	338	352	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies396
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies397
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies398
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies399
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies400
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies400	knob10	100.00	14	0	0	52	65	351	338	0.012	26.5
+# BLASTN 2.2.27+
+# Query: testassemblies401
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies401	knob10	100.00	15	0	0	53	67	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies402
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies403
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies403	knob10	100.00	15	0	0	3	17	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies404
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies404	knob10	100.00	15	0	0	29	43	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies405
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies405	knob10	100.00	13	0	0	111	123	350	338	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies406
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies406	knob10	100.00	13	0	0	59	71	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies407
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies407	knob10	100.00	13	0	0	205	217	350	338	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies408
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies409
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies410
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies410	knob10	100.00	13	0	0	145	157	350	338	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies411
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies412
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies413
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies414
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies414	knob10	100.00	13	0	0	7	19	352	340	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies415
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies415	knob10	100.00	15	0	0	7	21	338	352	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies416
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies417
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies418
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies419
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies420
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies420	knob10	100.00	15	0	0	6	20	338	352	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies421
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies422
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies422	knob10	100.00	15	0	0	74	88	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies423
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies424
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies424	knob10	100.00	13	0	0	24	36	350	338	0.042	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies425
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies425	knob10	100.00	13	0	0	58	70	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies426
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies426	knob10	100.00	15	0	0	4	18	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies427
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies427	knob10	94.44	18	1	0	227	244	335	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies428
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies428	knob10	100.00	14	0	0	78	91	338	351	0.012	26.5
+# BLASTN 2.2.27+
+# Query: testassemblies429
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies430
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies431
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies432
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies433
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies434
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies435
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies436
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies437
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies437	knob10	100.00	15	0	0	54	68	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies438
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies439
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies440
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies441
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies442
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies443
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies444
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies444	knob10	100.00	14	0	0	110	123	338	351	0.012	26.5
+# BLASTN 2.2.27+
+# Query: testassemblies445
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies446
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies446	knob10	100.00	15	0	0	26	40	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies447
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies447	knob10	100.00	13	0	0	247	259	350	338	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies448
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies449
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies449	knob10	100.00	13	0	0	208	220	350	338	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies450
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies451
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies452
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies453
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies454
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies455
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies456
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies456	knob10	100.00	15	0	0	7	21	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies457
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies457	knob10	100.00	15	0	0	95	109	352	338	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies458
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies458	knob10	100.00	15	0	0	130	144	350	336	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies459
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies459	knob10	100.00	13	0	0	59	71	350	338	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies460
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies460	knob10	100.00	15	0	0	100	114	338	352	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies461
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies461	knob10	100.00	13	0	0	231	243	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies462
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies463
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies463	knob10	100.00	13	0	0	43	55	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies464
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies465
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies466
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies467
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies468
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies468	knob10	100.00	15	0	0	55	69	352	338	0.005	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies469
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies470
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies470	knob10	100.00	14	0	0	27	40	338	351	0.012	26.5
+# BLASTN 2.2.27+
+# Query: testassemblies471
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies472
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies473
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies474
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies475
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies476
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies476	knob10	100.00	13	0	0	160	172	340	352	0.088	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies477
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies478
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies479
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies480
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies480	knob10	100.00	15	0	0	108	122	338	352	0.003	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies481
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies481	knob10	100.00	15	0	0	196	210	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies482
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies483
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies484
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies485
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies486
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies487
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies488
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies489
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies489	knob10	100.00	13	0	0	6	18	338	350	0.089	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies490
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies491
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies491	knob10	100.00	15	0	0	143	157	338	352	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies492
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies493
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies494
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies494	knob10	100.00	15	0	0	46	60	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies495
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLASTN 2.2.27+
+# Query: testassemblies496
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies496	knob10	100.00	15	0	0	81	95	352	338	0.007	28.3
+# BLASTN 2.2.27+
+# Query: testassemblies497
+# Database: 34KnobsonNCBI_renamed.txt
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+testassemblies497	knob10	100.00	13	0	0	148	160	338	350	0.087	24.7
+# BLASTN 2.2.27+
+# Query: testassemblies498
+# Database: 34KnobsonNCBI_renamed.txt
+# 0 hits found
+# BLAST processed 499 queries
