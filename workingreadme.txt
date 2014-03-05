@@ -97,6 +97,9 @@ perl TRF_parser.pl TanderRepeat_out.unpadded.fasta.2.7.7.80.10.50.2000.dat > Tan
 perl TRF_parser.pl TdactRepeat_out.unpadded.fasta.2.7.7.80.10.50.2000.dat > Tdactrepeat_TRFfinds.fasta
 perl TRF_parser.pl TriturRepeat_out.unpadded.fasta.2.7.7.80.10.50.2000.dat > Triturrepeat_TRFfinds.fasta
 
+perl TRF_parser.pl PhyloRepeat_out.unpadded.fasta.2.7.7.80.10.50.2000.dat > Phylorepeat_TRFfinds.fasta
+
+
 This will produce a file where each line is a tandem repeat and its name is >textassembly#
 
 --- Abundance of non-Knob elements, what is in the top 10?
@@ -118,6 +121,8 @@ blastn -query Tperurepeat_TRFfinds.fasta -evalue 1E-1 -outfmt 7 -db 34KnobsonNCB
 blastn -query Tdactrepeat_TRFfinds.fasta -evalue 1E-1 -outfmt 7 -db 34KnobsonNCBI_renamed.txt -task blastn -out DB_knobs_vs_tdacttrf
 blastn -query Triturrepeat_TRFfinds.fasta -evalue 1E-1 -outfmt 7 -db 34KnobsonNCBI_renamed.txt -task blastn -out DB_knobs_vs_triturtrf
 
+blastn -query Phylorepeat_TRFfinds.fasta -evalue 1E-1 -outfmt 7 -db 34KnobsonNCBI_renamed.txt -task blastn -out DB_knobs_vs_phylotrf
+
 Transfer files to my computer, the playdir directory, and run: 
 
 perl Blast_DBparser.pl DB_knobs_vs_rimmatrf > assemblynamesinDB_knobs_vs_rimmatrf.txt
@@ -129,8 +134,10 @@ perl Blast_DBparser.pl DB_knobs_vs_tperutrf > assemblynamesinDB_knobs_vs_tperutr
 perl Blast_DBparser.pl DB_knobs_vs_tdacttrf > assemblynamesinDB_knobs_vs_tdacttrf.txt
 perl Blast_DBparser.pl DB_knobs_vs_triturtrf > assemblynamesinDB_knobs_vs_triturtrf.txt
 
+perl Blast_DBparser.pl DB_knobs_vs_phylotrf > assemblynamesinDB_knobs_vs_phylotrf.txt
+
 Notes: tdact has no hits.  sorghum has 1 hit.  The rest have a ton.  Those 2 were done by
-hand for ReadyForMosaik files.
+hand for ReadyForMosaik files.  Second note, phylo has no knobs.
 
 I print out the names of each sequence that has a hit longer than 30bp to one of the 
 repeats.  This is printed out, duplicates are removed via textwrangler (process duplicate
@@ -140,10 +147,10 @@ The original names of all of the assemblies are taken using
 grep ">" Rimmarepeat_TRFfinds.fasta > Rimma_assemblynames_forsubset.txt
 grep ">" Zperrepeat_TRFfinds.fasta > Zper_assemblynames_forsubset.txt
 grep ">" Apludarepeat_TRFfinds.fasta > Apluda_assemblynames_forsubset.txt
-grep ">" Sorghumrepeat_TRFfinds.fasta > Sorghum_assemblynames_forsubset.txt
+XXgrep ">" Sorghumrepeat_TRFfinds.fasta > Sorghum_assemblynames_forsubset.txtXX
 grep ">" Tanderrepeat_TRFfinds.fasta > Tander_assemblynames_forsubset.txt
 grep ">" Tperurepeat_TRFfinds.fasta > Tperu_assemblynames_forsubset.txt
-grep ">" Tdactrepeat_TRFfinds.fasta > Tdact_assemblynames_forsubset.txt
+XXgrep ">" Tdactrepeat_TRFfinds.fasta > Tdact_assemblynames_forsubset.txtXX
 grep ">" Triturrepeat_TRFfinds.fasta > Tritur_assemblynames_forsubset.txt
 
 Don't forget to get rid of the > in text wrangler.
@@ -195,6 +202,7 @@ mv test.txt ReadyForMosaik_tperu.txt
 mv test.txt ReadyForMosaik_tritur.txt
 
 #Sorghum was hand fixed because only 1 sequence needed removal, and tdact had none. Makes 8.
+#Phylo had none, so that makes 9.
 
 Renamed the file since it is now ready for mosaik!  Moved onto the cluster, and mapped.
 
@@ -209,7 +217,7 @@ sequences and submit the script via (all files must go to correct dir):
 	./MosaikBuild -fr ReadyForMosaik_NAME.txt -oa ReadyForMosaik_NAME.dat
 	sbatch Submitfulltest.sh ReadyForMosaik_nonknob.dat
 
-The references are in the /References directory.  Once mapped, in each separate folder the
+The references are in the ~/huffwork/References directory.  Once mapped, in each separate folder the
 alignments produce a *.loc file.  This will give a listing of each assembly and how many reads
 mapped to it.  Do a head ___ > RanksNAME.csv  for each of the loc files.  Download them to
 a local directory, and open them up in text wrangler.  Format this so you can open it as a
@@ -221,6 +229,12 @@ Apluda: like sorghum
 GAAACTCATTTCGGCCTGTTTGGAGACTCAGATTTATCCCAGTGCAACATAGGTGCACGGTTTGCGTCGAATGTACCATAGGCTTGGGACTCACGCTGGGCACACCCTATGGTACTCCGTAGTAACGCGGGTCCAGTGGAAACTAGTTTCGGCCTGTTTGGAGACTCAGATTTATCCCAGTGCAACATAGGTGCCCGGTTTGCATCGAATGTACCATCAGCTTGGGACTCACGCTGGGCACACCCTATGGTACTCCGTAGTAACGCGGGTCCAGTGGAAACTCGTTTCGGCCTGTTTGGAGACTCAGATTTATCCCAGTGCAACATAGGTGCCCGGTTTGCGTCGAATGTACCATAGGCTTGGGACTCACGCTGGGCACACCCTATGGTACTCCGTAGTAACGCGGGTCCAGTGGAAACTCGTTTCGGCCTGTTTGGAGACTCAGATTTATCCCGGTGCAACATAGGTGCCCGATTTGCGTCCAATGTACCATAGGCTTGGGACTCACGCTGGGCACACCCTATGGTACTCCGTACTAACGCGGGTCCAGTGGAAACTCGTTTTGGCCTGTTTGGAGACTCAGATTTATCCCGGTGCAACATAGGTGCCCGGTTTGCGTCGAATGTACCATAGGCTTGGGACTCACGCTGGGCACACCCTATGGTACTCCGTAGTAACGCGGGTCCAGT
 >testassemblies384(short, 138bp)
 TGGAAACTCGTTTCGGCCTGTTTGGAGACTCAGATTTATCCCGGTGCAACATAGGTGCCCGGTTTGCGTCGAATGTACCATAGGCTTGGGACTCACGCTGGGCACACCCTATGGTACTCCGTAGTAACGCGGGTCCAG
+
+Phylo: blasts to bamboo repetitive region, not in melters, not annotated as anything
+>testassemblies114(long)
+TGTGAAACTTTCCAGAACGACGCGTACCCTAAGCTCCAATTTATGAAATCGAGGCACAGAAAGAAAATCACACCAAATAAGTATAATGGACTTCTGGTGTGCCCTACGTCATTTCTAGGTGCATTTGGAATAATTCCGAGCAAGTGTGAAACATTCCAGAACGACGGGTACCCAGAGCTCCACTTTATGAAATCGAGGCATGGAAAGAAAATGAACATCAAACTCCCATAATGGACTTCTAGTGTGCCCTACCTCATTTCTAGGTGCATTTGGAATCTTTCCGAGCCGGTGTGAAACTTTCCAGAACGACGCGTACCCTGAGCTCCAATTTATGAAATCGAGGCACGGAAAGAAAATCAAAACCAAACACCCATAATGGACTTCTAGTGTGCCCTACATCATTTCTAGGTGCATTTGGAATAATTCCGACCAGGTGTGAAACTTTCCAGAACGACGGGTACCCAGAGCTCCACTTTTGAAATCGAGGCACGGAAAGAAAATCAACACCAAATAACCATAATGGACTTCTAGTGTGCCCTACCTCATTTCTAGGTGCATTTGAATCATTCCCAGCAAGTGTGAAACATTCCAGAACGACAGGTACCCACAGCTCCAATGTACGAAATCGAGGCACGGAAAGAAAATCAAAACCAAACACCCATAATGGACTTCTACTGTGCCCTACCTCATTTCTAGGTGCATTTGGAATAATTCCGAGCAAGTGTGAAACATTCCAGAACGACGCGTACCCAGAGCTCCAATGTATGAAATCGAGGCACGGAAAGAAAATCAAAACCAAACACCCATAATGGACTTCTAGTGTGCTCTACCTCATTTCTAGGTGCATTTGGAATAATTCTGAGCAGGTGTAAAACTTTGCAAAGCCACGGGAACCCAGAGCTCCACATTATGAAATCGAGGCACGGAAAGAAAATCAATGCAAACACCCAAAATGGACTTCTGGTGTGCCCTATGTCATTTCTAGGTGCATTTCGAATAATTCCGAGCAGGTGTGAAACTTTGCTGAACGACGGTATCCAGAGCTCCACTTTACGAAATCAAGGCACAGAAAGACAATCAATACGAAACACCCAAAATAGACTTCTAGTGTGCCCTACCTCATTTCTAGGTGCATTTGGAATCCTTCCGAGCCGG
+>testassemblies112(short, 145bp)
+TGTGAAACTTTCCAGAACGACGCGTACCTAAGCTCCAATTTATGAAATCGAGGCACGGAAAGAAAATCAACACCAAATACCCATAATGGACTTCTAGTGTGCCCTACGTCATTTCTAGGTGCATTTGGAATAATTCCGAGCCGG
 
 Rimma: top is ribosomal, second is centc
 >testassemblies82(Top abundance... ribosomal)
@@ -276,6 +290,7 @@ with high blastn homology will be pulled out, and used as a larger mapping datab
 of this is pursued on farm, /home/pbilinsk/huffwork/BLAST_TRF_Parsing/BiggerNet
 
 makeblastdb -in Apludarepeat_TRFfinds.fasta -dbtype 'nucl' -parse_seqids
+makeblastdb -in Phylorepeat_TRFfinds.fasta -dbtype 'nucl' -parse_seqids
 makeblastdb -in Rimmarepeat_TRFfinds.fasta -dbtype 'nucl' -parse_seqids
 makeblastdb -in Sorghumrepeat_TRFfinds.fasta -dbtype 'nucl' -parse_seqids
 makeblastdb -in Tanderrepeat_TRFfinds.fasta -dbtype 'nucl' -parse_seqids
@@ -285,6 +300,7 @@ makeblastdb -in Triturrepeat_TRFfinds.fasta -dbtype 'nucl' -parse_seqids
 makeblastdb -in Zperrepeat_TRFfinds.fasta -dbtype 'nucl' -parse_seqids
 
 blastn -query centapluda.fa -evalue 1E-1 -outfmt 7 -db Apludarepeat_TRFfinds.fasta -task blastn -out DB_apluda
+blastn -query centphylo.fa -evalue 1E-1 -outfmt 7 -db Phylorepeat_TRFfinds.fasta -task blastn -out DB_phylo
 blastn -query centrimma.fa -evalue 1E-1 -outfmt 7 -db Rimmarepeat_TRFfinds.fasta -task blastn -out DB_rimmma
 blastn -query centsorghum.fa -evalue 1E-1 -outfmt 7 -db Sorghumrepeat_TRFfinds.fasta -task blastn -out DB_sorgh
 blastn -query centtander.fa -evalue 1E-1 -outfmt 7 -db Tanderrepeat_TRFfinds.fasta -task blastn -out DB_tander
@@ -294,6 +310,7 @@ blastn -query centtritur.fa -evalue 1E-1 -outfmt 7 -db Triturrepeat_TRFfinds.fas
 blastn -query centzper.fa -evalue 1E-1 -outfmt 7 -db Zperrepeat_TRFfinds.fasta -task blastn -out DB_zper
 
 perl Blast_DBparser.pl DB_apluda | uniq | sed 's/test/>test/g' > bignetnames_apluda.txt
+perl Blast_DBparser.pl DB_phylo | uniq | sed 's/test/>test/g' > bignetnames_phylo.txt
 perl Blast_DBparser.pl DB_rimmma | uniq | sed 's/test/>test/g' > bignetnames_rimma.txt
 perl Blast_DBparser.pl DB_sorgh | uniq | sed 's/test/>test/g' > bignetnames_sorghum.txt
 perl Blast_DBparser.pl DB_tander | uniq | sed 's/test/>test/g' > bignetnames_tander.txt
@@ -303,6 +320,7 @@ perl Blast_DBparser.pl DB_tritur | uniq | sed 's/test/>test/g' > bignetnames_tri
 perl Blast_DBparser.pl DB_zper | uniq | sed 's/test/>test/g' > bignetnames_zper.txt
 
 perl Fetch_assembles.pl bignetnames_apluda.txt Apludarepeat_TRFfinds.fasta > Bignet_apluda.fa
+perl Fetch_assembles.pl bignetnames_phylo.txt Phylorepeat_TRFfinds.fasta > Bignet_phylo.fa
 perl Fetch_assembles.pl bignetnames_rimma.txt Rimmarepeat_TRFfinds.fasta > Bignet_rimma.fa
 perl Fetch_assembles.pl bignetnames_sorghum.txt Sorghumrepeat_TRFfinds.fasta > Bignet_sorghum.fa
 perl Fetch_assembles.pl bignetnames_tander.txt Tanderrepeat_TRFfinds.fasta > Bignet_tander.fa
@@ -325,7 +343,10 @@ Taken together, I believe the bignet polymers are a suitable, diverse reference 
 and, beyond a minimal read threshold, overall read depth does not have an appreciable impact
 on the diversity captured in the bignet reference.
 
+Make the cent and bignet references in the References folder, and map the library against
+these two new references to get the broad and narrow abundance of the centromere repeat.
 
+I think thats it.
 	
 
 
