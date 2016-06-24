@@ -3,6 +3,9 @@ Centromere Repeat Evolution in the Grasses
 October 2013-February 2014
 by: Paul Bilinski
 
+to do things interactively: srun --pty -p bigmemh bash
+
+
 Below is a running log/journal of the final analyses performed for the Hufford et al
 centromere evolution paper.  Entries are not made in chronological order, but rather
 broken up by tasks completed.  Different form of organization than the Waters et al
@@ -80,6 +83,11 @@ tflorRepeat_out.unpadded.fasta
 tlaxRepeat_out.unpadded.fasta
 udigRepeat_out.unpadded.fasta
 
+Round3 - had to change manifest file for new version of mira: 
+parameters = --hirep_good -NW:cnfs=no -NW:mrnl=200 -HS:mnr=no
+tefRepeat_out.unpadded.fasta
+
+
 Download this file from the cluster, and run trf on it locally.
 
 ./trf407b.macos64 RimmarepeatASS_out.unpadded.fasta 2 7 7 80 10 50 2000 -h
@@ -101,6 +109,10 @@ Round 2
 ./trf407b.macos64 tflorRepeat_out.unpadded.fasta 2 7 7 80 10 50 2000 -h
 ./trf407b.macos64 tlaxRepeat_out.unpadded.fasta 2 7 7 80 10 50 2000 -h
 ./trf407b.macos64 udigRepeat_out.unpadded.fasta 2 7 7 80 10 50 2000 -h
+
+Round3
+./trf407b.macos64 tefRepeat_out.unpadded.fasta 2 7 7 80 10 50 2000 -h
+
 
 Next, take the .dat produced by TRF and filter it based on the length requirements we see
 in Melters et al 2013.  They found that the shortest tandem repeat in a plant was 40bp
@@ -128,6 +140,9 @@ perl TRF_parser.pl osatRepeat_out.unpadded.fasta.2.7.7.80.10.50.2000.dat > osatr
 perl TRF_parser.pl tflorRepeat_out.unpadded.fasta.2.7.7.80.10.50.2000.dat > tflorrepeat_TRFfinds.fasta
 perl TRF_parser.pl tlaxRepeat_out.unpadded.fasta.2.7.7.80.10.50.2000.dat > tlaxrepeat_TRFfinds.fasta
 perl TRF_parser.pl udigRepeat_out.unpadded.fasta.2.7.7.80.10.50.2000.dat > udigrepeat_TRFfinds.fasta
+
+Round3
+perl TRF_parser.pl tefRepeat_out.unpadded.fasta.2.7.7.80.10.50.2000.dat > tefrepeat_TRFfinds.fasta
 
 This will produce a file where each line is a tandem repeat and its name is >textassembly#
 
@@ -162,6 +177,9 @@ blastn -query tflorrepeat_TRFfinds.fasta -evalue 1E-1 -outfmt 7 -db 34KnobsonNCB
 blastn -query tlaxrepeat_TRFfinds.fasta -evalue 1E-1 -outfmt 7 -db 34KnobsonNCBI_renamed.txt -task blastn -out DB_knobs_vs_tlaxtrf
 blastn -query udigrepeat_TRFfinds.fasta -evalue 1E-1 -outfmt 7 -db 34KnobsonNCBI_renamed.txt -task blastn -out DB_knobs_vs_udigtrf
 
+Round3
+blastn -query tefrepeat_TRFfinds.fasta -evalue 1E-1 -outfmt 7 -db 34KnobsonNCBI_renamed.txt -task blastn -out DB_knobs_vs_teftrf
+
 Transfer files to my computer, the playdir directory, and run: 
 
 perl Blast_DBparser.pl DB_knobs_vs_rimmatrf > assemblynamesinDB_knobs_vs_rimmatrf.txt
@@ -183,6 +201,10 @@ perl Blast_DBparser.pl DB_knobs_vs_osattrf > assemblynamesinDB_knobs_vs_osattrf.
 perl Blast_DBparser.pl DB_knobs_vs_tflortrf > assemblynamesinDB_knobs_vs_tflortrf.txt
 perl Blast_DBparser.pl DB_knobs_vs_tlaxtrf > assemblynamesinDB_knobs_vs_tlaxtrf.txt
 perl Blast_DBparser.pl DB_knobs_vs_udigtrf > assemblynamesinDB_knobs_vs_udigtrf.txt
+
+Round3
+perl Blast_DBparser.pl DB_knobs_vs_teftrf > assemblynamesinDB_knobs_vs_teftrf.txt
+#tef has no knob, cool
 
 Notes: tdact has no hits (because its actually tritur).  sorghum has 1 hit.  The rest have a ton.  Those 2 were done by
 hand for ReadyForMosaik files.  Second note, phylo has no knobs.
@@ -220,6 +242,9 @@ have a lot, removed via script.
 
 grep ">" tflorrepeat_TRFfinds.fasta > tflor_assemblynames_forsubset.txt
 grep ">" tlaxrepeat_TRFfinds.fasta > tlax_assemblynames_forsubset.txt
+
+Round3
+tef has no knobs, map away
 
 Don't forget to get rid of the > in text wrangler.
 
@@ -286,7 +311,9 @@ Renamed the file since it is now ready for mosaik!  Moved onto the cluster, and 
 
 After renaming, moved to the cluster and made it into mosaik ready .dat.  Operations were
 executed in the ~/huffwork/Mosaikmapping/ directory on the cluster.  Then build the 
-sequences and submit the script via (all files must go to correct dir):
+sequences and submit the script via (all files must go to correct dir, and you have to
+copy over the Submitfulltest.sh and the Mosaik executables, submit must also be altered
+to contain bigmemh Q):
 
 	./MosaikBuild -fr ReadyForMosaik_NAME.txt -oa ReadyForMosaik_NAME.dat
 	sbatch Submitfulltest.sh ReadyForMosaik_nonknob.dat
@@ -357,7 +384,7 @@ AACCATTTCTTCTTTTTTCGCAACGAACATGCCCAATCCACTACTTTAGGTCCAAAACTCATGTTTGGGGTGGTTTCGCG
 
 (putativetrit: CTGGCCTTGAGAAGACGTTCGAAACAAAGCTCGATAACAGATTTAATGAACTGCTTACGCGTCTTCCACCATCGGCTGCACCTGCCGCACCTCTGCAACAACTACTACTACTACTATACCTCCAGATCGCGAAACAGCCCTCCGCCGAGCGAGCCGTGTCCTTCTTCAGCCTGGCCAAACTGTTGGTGCTGCTGTTGATAGTTCTGCTGCTGATGCGGAGGGTGATTATGCGGGAGATTACGAGG
 
-Zper:
+Zper: maize centc
 >testassemblies4303(long)
 CAACGAAATTGCGCGAAACCACCCCAAACATGAGTTTTGGACCTAAAGTAGTGGATTGGGCATGTTCGTTGCGAAAAACGAAGAAATGGTTCCGGTGGCAAAAACTCGTGCTTTGTATGCACCCCGACACCCGTTTTCGGAATGGGTGACGTGCGGCAACAAAATTGCGCGAAACCACCCCAAACATGAGTTTTGGACCTAAAGTAGTGGATTGGGCATGTTCGTTGCGAAAAACGAAGAAATGGTTCTGGTGGCAAAAACTCGTGCTTTGTATGCACCCCGACACACGTTTTCGGAATGGGTGACGTGCGGCAACGAAATTGCGCGAAACCACCCCAAACATGAGTTTTGGACCTAAAGTAGTGGATTGGGCATGTTCGTTGCGAAAAACGAAAAAATGGTTCCGGTGGCAAAAACTCGTGCTTTGTATGCACCCTGACACCCGTTTTCGGAATGGGTGACGTGCGG
 >testassemblies2616
@@ -378,7 +405,7 @@ isrug:
 ACCTTGGAGTATTGTCGGGTGTGCTAAAATTGCTCCCGCTCCAACGGGAGCTTCAGAACAACCCGTGCACATATTTTGTGCCGAAATTCACACGAGTCTCTAAATGAACCGAAACGAGCTTCCACCTCACCCACGTC
 short, twice as abundant as next up which is TE
 
-tlax:
+tlax: maize like
 >testassemblies176(long)
 TGAGTTTGGACCTAAAGTAGTGGATTGGGCATGTTCGTTGCGAAAAAAGAAGAAATGGTTCCGGTGGCAAAAACTCATGCTTGTATGCACCCCGATACCCGTTTTCGCAATGGGTGACGTGCGGCAACGAAATGGCGTGAAACCACCCCAAACATGAGTTTTGTACCTAATTAGTGGATTGGGCATGTTCGTTGCAAAAAAAAAGAAATGGTTCCGGTGGCAAAAACTCATGCCTTGTATGCACCCCGATACCCGTTTTCGCAATGGGTGACGTGCTGCAACGAAATGGCGCAAAACCACCCCAAACATGAGTTTTGGACCTAAAGTAGTGGATTGGGCATGTCCGTTGCGAAAAAAGAAGAAATGGTTCCGGTGGCAAAAACTCATGCCTTGTATGCACCCCGATACCCGTTTCCGCAATGGGTGACGTGCAACAACGAAATGGCGCGAAACCACCCCAAACATGAGTTTTGGAACTAAAGTAGTGGATTGGGCATGTTCGTTACGAAAAACGAAGAAATGGTTCCGGTGGCAAAAACTCATGCTTTGTATGCATCCCGATACCCGTTTTCGGAATAGGTGACGTGCGGCAACGAAATGGCGCGAAACCACCCCAAACATGAGTTTTGGACCTAAAGTAGTCGAATGGGCATGTTCGTTGCGAAAAAAGAAGAAATGGTTCCGGTGGCAAAAACCCATGCCTTGCATGCACACCGATACCCGTTTCCGAAATGGGTGACGCGCGGCAACGAAATGGCACGAAACCACCCCAAACA
 >testassemblies175(short, 156bp, maize like)
@@ -407,6 +434,13 @@ osat: all 10 are RCS2 like, but not quite as long.  have homology over entire le
 CTCACTTCGTGATTCGCGCGGCGAACTTTTGTCAATTAATGCCAATATTGGCACACGAGGGTGCGATGTTTTTGACCGGAATCAAAAAGTTCAAAAAAACCAAAACATGATTTTTGGACATATTGGAGTGTATTGGGTGCGTTCGTGGAAAAAACTCACTTCGTGATTCGCGCGGCGAACTTTTGTCAATTGATGCCAATATTGGCACACAGGGTGCGATGTTTTTGACCGGAATCAAAAAGTTCGAAAAAAAACCAAAACATGATTTTTGGACATATTGGAGTGTATTGGGTGCGTTCGTGGCAAAAACTCACTTCGTGATTCGCGCGGCGAACTTTTGTCAATTGATGCCAATATTGGCACACGAGGGTGCGATGTTTTTGTCTGGAATCAAAAAGTTCAAGAAAAACGAAACATGATTTTTGGATATATTGGACTGTATTGGGTGCGTTCGTGGCAAAAACTCACTTCGTGATTCGCGCGGTGAACTTTTGTCAATTGATGCCAATATTGGCACACGAGGGTGCGATGTTTTTGACCGGAATCAAAAAGTTCAAAAAAAACCAAAACATGATTTTTGGACATATTGGAGTGTATTGGGTGCGTTCGTGGCAAAAACTCACTTCGTGATTCGCGCGGCGAACTTTTGTCAATTATGCCAATATTGGCACACGAGGTGTGATGTTTTTGACCGGAATCAAAAAGTTAAAAAAAAACCAAAACATGATTTTTGGACATATTGGAGTGTATTGGGTGCGTTCGTGGCAAAAA
 >testassemblies6(short, 154bp)
 GGTGCGATGTTTTTGACCGGAATCAAAAAGTTCAAAAAAAACAAAACATGATTTTTGGACATATTGGAGTGTATTGGGTGCGTTCGTGGCAAAAACTCACTTCGTGATTCGCGCGGCGAACTTTTGTCAATTGATGCCAATATTGGCACACGAG
+
+Round3
+tef: brand new, genome paper does not have any centromere repeat annotated as far as i could tell
+>testassemblies525(long, no real homology to anything, multiple shorter repeats)
+GTAGAGCTCCGAATCAGCCTGGTTTGACTCGTTGGCAACTAAACGCAAGTTTTTGAGTGTTTTCCCATGGAAACCATCCAATTACATCAAAAACATCATAACAAGTGAAAAAGAACGATACTCGGGTCGTTTTGACCGAAACAACACGGCATTCACCCAAACGGCTCCCGGAGAGATCCGAATCAGCCCGGTTTTCACAAGTTTGCAACTAAACACAAGTTTTTGAGTGTTTTCCCATGGGAACCATCCAATTACATCAAAAACATCATAACAAGTGAAAAAGAACGATTCACTCGGGACGTTTTGACCGAACAACGATACCAACGGCTCCCGTAGAGCTCCGAATCAGCCCGGTTTTGACTCGTTTGCAACTAAACACAAGTTTTTGAGTGTTTTCCCATGGGAACCATCCAATTACATCAAAAACATCATAACAAGTGAAAAAAATGATACTCGGGTCGTTTTGACCGAAACAACACGATATTCACCCAAACGGCTCCCGTAGAGCTCCAAATCAGCCCGGTTTGACTCATCAAAAAAATCATTAGTAAAAAGATGATACTCGGTCGTCTTGACCGAAGCAACACGGAATTCACAAAAACAGCTCAAGTAGAGCTCCGAATCAGCCCGGTTTGACTCGTTTGCAACTAAACACAAGTTTTGAGTGTTTTCCCATGGGAAACAATCAAATTAAATCAAAAACATCATAACAAGTGAAAAAGAATGATACTCGGGTCATTTTGACCAAAACAACACGGTATTCACCCAAACGGCTCCCTAGAGCTCCGAATCAGCCCGGTTTGACTCCTTTGCAACTAAACACAAGTTTTTGAGTGTGCTCACATAGGAACCATCCAACTAAGTCAAAAACATCATAAAAAGTGAAAAAGAATGATTCACTCGGGTCGTTTTGACCGAAACAACACGGTATTCACCAAAACGGCTCCCGTAGAGCTCCGAACCAGCCCGGTTTGACTCATTTGCAACTAAACACAAGTTTTTGAGTGTTTTCCCATGGGAACCATCCAATTACATCAAAAAAAGCATAACAAGTGAAAAAGAATGATACTCGGGTCGTTTTGACCAAAACAACACGGTATTCACCCAAACGGCTCCCGTAGAGCTCCGAATCAGCCCGGTTTGACTCCTTTGCAAGTAAACACTTGCTTTTGAGTGTTTTCCCATGAGAACCATCCAATTACATCAAAAAAATCATAACAAGTGAAAAAGAATGATACTCGGGTCGTTTTGACCAAAACAACACGGTATTCACCTGAGTGTTTTCCTATGGGAACCATCCAATTACATCAAAAACATCATAACAAGCTA
+>testassemblies517(short, 168bp consensus, was most abundant repeat)
+GGTCGTTTTGACCGAAACAACACGGTATTCACCCAAACGGCTCCCGTAGAGCTCCGAATCAGCCCGGTTTGACTCGTTTGCAAGTAAACAAGTTTTTGAGTGTTTTCCCATGGGAACCATCCAATTACATCAAAAACATCATAACAAGTGAAAAAGAATGATACTCG
 
 #Creating a bigger net: Grabbing all Cent assemblies from TRF finds
 
@@ -490,6 +524,15 @@ perl Fetch_assembles.pl bignetnames_hyphi.txt hyphirepeat_TRFfinds.fasta > Bigne
 perl Fetch_assembles.pl bignetnames_tflor.txt tflorrepeat_TRFfinds.fasta > Bignet_tflor.fa
 perl Fetch_assembles.pl bignetnames_osat.txt osatrepeat_TRFfinds.fasta > Bignet_osat.fa
 
+Round3
+makeblastdb -in tefrepeat_TRFfinds.fasta -dbtype 'nucl' -parse_seqids
+blastn -query centtef.fa -evalue 1E-1 -outfmt 7 -db tefrepeat_TRFfinds.fasta -task blastn -out DB_tef
+perl Blast_DBparser.pl DB_tef | uniq | sed 's/test/>test/g' > bignetnames_tef.txt
+perl Fetch_assembles.pl bignetnames_tef.txt tefrepeat_TRFfinds.fasta > Bignet_tef.fa
+#Checking position in the tef genome:  blast, has 416 hits across all scaffolds, mostly to
+position on scaffolds.  Not super meaningful.  However, we take the bigger scaffolds, those
+greater than 500,000bp, not a lot of meaningful hits.  The larger scaffolds can be found in
+the file Etbiggerscaffold.fa
 
 With the broader references made, I wanted to test what the % difference in mapping was when
 using 100 sequences instead of the full 273 sequences.  This would give me an idea of how
